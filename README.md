@@ -14,7 +14,7 @@ Welcome to the repository for **MMMetrics**’s first participation in the IMC P
 
 15 days, 5 rounds, 12,620 teams, 2 formats: algorithmic & manual.
 
-MMMetrics Rankings: UK Rank 45 | Algo 288 | Overall 477 | Manual 1183.
+## MMMetrics Rankings: UK Rank 45 | Algo 288 | Overall 477 | Manual 1183.
 
 
 ---
