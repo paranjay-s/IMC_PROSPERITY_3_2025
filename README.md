@@ -21,7 +21,6 @@ Welcome to the repository for **MMMetrics**’s first participation in the IMC P
 
 ## Table of Contents
 
-- [Repository Structure](#repository-structure)
 - [Algorithmic Challenges](#algorithmic-challenges)
   - [Round 1](#round-1)
   - [Round 2](#round-2)
@@ -36,65 +35,34 @@ Welcome to the repository for **MMMetrics**’s first participation in the IMC P
   - [Round 5](#manual-round-5)
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
-- [License](#license)
-
----
-
-## Repository Structure
-
-```
-├── algos/
-│   ├── round1_algo.py
-│   ├── round2_algo.py
-│   ├── round3_algo.py
-│   ├── round4_algo.py
-│   └── round5_algo.py
-├── manuals/
-│   ├── round1_manual.ipynb
-│   ├── round2_manual.ipynb
-│   ├── round3_manual.ipynb
-│   ├── round4_manual.ipynb
-│   └── round5_manual.ipynb
-└── README.md
-```
 
 ---
 
 ## Algorithmic Challenges
 
-Each round’s algorithmic solution is implemented in Python scripts located under `algos/`.
+Each round’s algorithmic solution is implemented in Python scripts located in this repo itself.
 
 ### Round 1
-**Files:** `algos/round1_algo.py`
-
 **Summary & Logic:**
 - **Products Traded:** Rainforest Resin (stable), Kelp (volatile), Squid Ink (patterned).
 - **Strategy:** Market-making for Rainforest Resin and Kelp by placing buy/sell orders around a calculated fair price. Explored arbitrage on Rainforest Resin when favorable spreads appeared. Squid Ink was skipped due to complex patterns needing deeper analysis.
 
 ### Round 2
-**Files:** `algos/round2_algo.py`
-
 **Summary & Logic:**
 - **Assets:** Picnic baskets composed of croissants, jams, and djembes alongside standalone goods.
 - **Strategy:** Identified price discrepancies via normalized spreads between related assets (e.g., Picnic Basket 1 vs. Croissants). Traded these spreads while enforcing position limits, also arbitraging between standalone goods to maximize profit.
 
 ### Round 3
-**Files:** `algos/round3_algo.py`
-
 **Summary & Logic:**
 - **Instruments:** Volcanic Rock Vouchers with specific strike prices.
 - **Strategy:** Applied the Black–Scholes model to estimate theoretical prices. Bought undervalued and sold overvalued vouchers relative to model price, incorporating risk and inventory constraints.
 
 ### Round 4
-**Files:** `algos/round4_algo.py`
-
 **Summary & Logic:**
 - **Product:** Magnificent Macarons, price influenced by sunlight, sugar prices, tariffs.
 - **Strategy:** Trained a linear regression on observable factors to predict fair price. Executed a market-making algorithm placing orders around this estimate, managing position and conversion limits.
 
 ### Round 5
-**Files:** `algos/round5_algo.py`
-
 **Summary & Logic:**
 - **Enhancements:** Integrated counterparty information to refine thresholds for Volcanic Rock Voucher trades. Continued using regression-based pricing for Macarons and dynamic conversion management based on average P&L with counterparties.
 
