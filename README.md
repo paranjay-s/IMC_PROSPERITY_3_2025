@@ -8,7 +8,7 @@ IMC Prosperity 3 Trading Challenge 2025 — Code & Analysis
 
 ## Introduction
 
-Welcome to the repository for **MMMetrics**’s first participation in the IMC Prosperity 3 Trading Challenge 2025. Over five intense rounds, our team [(me) Paranjay, Christopher, and Andreas) tackled both algorithmic and manual trading problems, developing and refining strategies under real-time constraints. This README outlines each challenge, summarizes our approach, and links to the code and notebooks we used.
+Welcome to the repository for **MMMetrics**’s first participation in the IMC Prosperity 3 Trading Challenge 2025. Over five intense rounds, our team [(me) Paranjay, Christopher, and Andreas] tackled both algorithmic and manual trading problems, developing and refining strategies under real-time constraints. This README outlines each challenge, summarizes our approach, and links to the code and notebooks we used.
 
 #Quick Highlights:
 
