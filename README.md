@@ -33,7 +33,6 @@ Welcome to the repository for **MMMetrics**’s first participation in the IMC P
   - [Round 3](#manual-round-3)
   - [Round 4](#manual-round-4)
   - [Round 5](#manual-round-5)
-- [Getting Started](#getting-started)
 - [Contributing](#contributing)
 
 ---
